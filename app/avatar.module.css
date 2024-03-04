@@ -1,0 +1,17 @@
+.roundedAvatar {
+    margin-top: 1rem;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .roundedAvatar text {
+    font-size: 48px;
+    fill: #fff; 
+    font-weight: 900;
+  }
+  

@@ -1,0 +1,74 @@
+.card {
+    transition:
+      transform 150ms ease,
+      box-shadow 150ms ease;
+      border: 1px solid #dfdfdf;
+      box-shadow: var(--mantine-shadow-md);
+    &:hover {
+      transform: scale(1.01);
+      box-shadow: var(--mantine-shadow-md);
+    }
+  }
+  
+  .title {
+    font-family: 'Greycliff CF', var(--mantine-font-family);
+    font-weight:600;
+    text-align: center;
+    padding-top: 1rem;
+  }
+  .avatarContainer {
+    /* Add styles to center the avatar */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto; /* Adjust the height as needed */
+    margin: auto;
+  }
+
+  .pageContainer{
+    padding: 1rem;
+  }
+
+  /* Add these styles to your cards.module.css */
+
+.buttonsContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.subscribeButton,
+.deleteButton {
+  flex: 1;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #007BFF; /* Adjust the background color as needed */
+  color: #fff; /* Adjust the text color as needed */
+  border: none;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.deleteButton {
+  color: #007BFF;
+  border:1px solid  #007BFF;
+  background-color: #ffffff; /* Adjust the background color for delete button */
+  margin-right: 0px;
+}
+
+.followed {
+  background-color: white;
+  color: #007bff; 
+  border: 1px solid #007bff;
+}
+
+.websiteLink {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+.websiteLink:hover {
+  text-decoration: underline;
+}
